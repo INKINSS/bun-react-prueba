@@ -19,7 +19,8 @@
 		"@types/bun": "latest",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
-		"husky": "^9.1.7"
+		"husky": "^9.1.7",
+		"lint-staged": "^16.2.7"
 	},
 	"lint-staged": {
 		"src/**/*.{ts,tsx,js,jsx,json,css,md}": "biome check --write --no-errors-on-unmatched"
